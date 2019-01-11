@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\H_Dialogs">
+      <UniqueIdentifier>{de948806-8788-472c-b10d-d6674c17cd31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\UI_Dialogs">
+      <UniqueIdentifier>{f8844e5d-a0ca-4385-91ca-62db06e942cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\UI_Wins">
+      <UniqueIdentifier>{f459877c-d3d9-4121-be3d-7360e0f7628d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\H_Wins">
+      <UniqueIdentifier>{863b88cc-2509-49c9-b206-f31e9fc4b477}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\S_Dialogs">
+      <UniqueIdentifier>{2b88be38-e636-49b4-bdb9-551ae8aa594f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\S_Wins">
+      <UniqueIdentifier>{8ec580b3-03a4-43a8-86c4-c398b683f1ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\UI_SearchD">
+      <UniqueIdentifier>{036b6734-d41f-475b-9c61-536133c2a03e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\H_SearchD">
+      <UniqueIdentifier>{e7926000-1aaa-4b82-ad9d-7637d1387e36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\S_SearchD">
+      <UniqueIdentifier>{88bbc991-21b3-4442-b090-acd3cbe58cc9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="d_contributor_info.cpp">
+      <Filter>Source Files\S_Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="d_journal_info.cpp">
+      <Filter>Source Files\S_Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="win_contributor_catalog.cpp">
+      <Filter>Source Files\S_Wins</Filter>
+    </ClCompile>
+    <ClCompile Include="win_journal_catalog.cpp">
+      <Filter>Source Files\S_Wins</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="d_unit_info.cpp">
+      <Filter>Source Files\S_Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="d_editor_info.cpp">
+      <Filter>Source Files\S_Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="d_publisher_info.cpp">
+      <Filter>Source Files\S_Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="d_search_journal.cpp">
+      <Filter>Source Files\S_SearchD</Filter>
+    </ClCompile>
+    <ClCompile Include="d_paper_info.cpp">
+      <Filter>Source Files\S_Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="win_paper_catalog.cpp">
+      <Filter>Source Files\S_Wins</Filter>
+    </ClCompile>
+    <ClCompile Include="d_search_contributor.cpp">
+      <Filter>Source Files\S_SearchD</Filter>
+    </ClCompile>
+    <ClCompile Include="shared_functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="d_search_paper.cpp">
+      <Filter>Source Files\S_SearchD</Filter>
+    </ClCompile>
+    <ClCompile Include="d_login.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="MainWin.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="d_contributor_info.h">
+      <Filter>Header Files\H_Dialogs</Filter>
+    </QtMoc>
+    <QtMoc Include="d_journal_info.h">
+      <Filter>Header Files\H_Dialogs</Filter>
+    </QtMoc>
+    <QtMoc Include="win_contributor_catalog.h">
+      <Filter>Header Files\H_Wins</Filter>
+    </QtMoc>
+    <QtMoc Include="win_journal_catalog.h">
+      <Filter>Header Files\H_Wins</Filter>
+    </QtMoc>
+    <QtMoc Include="d_unit_info.h">
+      <Filter>Header Files\H_Dialogs</Filter>
+    </QtMoc>
+    <QtMoc Include="d_editor_info.h">
+      <Filter>Header Files\H_Dialogs</Filter>
+    </QtMoc>
+    <QtMoc Include="d_publisher_info.h">
+      <Filter>Header Files\H_Dialogs</Filter>
+    </QtMoc>
+    <QtMoc Include="d_search_journal.h">
+      <Filter>Header Files\H_SearchD</Filter>
+    </QtMoc>
+    <QtMoc Include="d_paper_info.h">
+      <Filter>Header Files\H_Dialogs</Filter>
+    </QtMoc>
+    <QtMoc Include="win_paper_catalog.h">
+      <Filter>Header Files\H_Wins</Filter>
+    </QtMoc>
+    <QtMoc Include="d_search_contributor.h">
+      <Filter>Header Files\H_SearchD</Filter>
+    </QtMoc>
+    <QtMoc Include="shared_functions.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="d_search_paper.h">
+      <Filter>Header Files\H_SearchD</Filter>
+    </QtMoc>
+    <QtMoc Include="d_login.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="MainWin.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="d_contributor_info.ui">
+      <Filter>Form Files\UI_Dialogs</Filter>
+    </QtUic>
+    <QtUic Include="d_journal_info.ui">
+      <Filter>Form Files\UI_Dialogs</Filter>
+    </QtUic>
+    <QtUic Include="win_contributor_catalog.ui">
+      <Filter>Form Files\UI_Wins</Filter>
+    </QtUic>
+    <QtUic Include="win_journal_catalog.ui">
+      <Filter>Form Files\UI_Wins</Filter>
+    </QtUic>
+    <QtUic Include="d_unit_info.ui">
+      <Filter>Form Files\UI_Dialogs</Filter>
+    </QtUic>
+    <QtUic Include="d_editor_info.ui">
+      <Filter>Form Files\UI_Dialogs</Filter>
+    </QtUic>
+    <QtUic Include="d_publisher_info.ui">
+      <Filter>Form Files\UI_Dialogs</Filter>
+    </QtUic>
+    <QtUic Include="d_search_journal.ui">
+      <Filter>Form Files\UI_SearchD</Filter>
+    </QtUic>
+    <QtUic Include="d_paper_info.ui">
+      <Filter>Form Files\UI_Dialogs</Filter>
+    </QtUic>
+    <QtUic Include="win_paper_catalog.ui">
+      <Filter>Form Files\UI_Wins</Filter>
+    </QtUic>
+    <QtUic Include="d_search_contributor.ui">
+      <Filter>Form Files\UI_SearchD</Filter>
+    </QtUic>
+    <QtUic Include="d_search_paper.ui">
+      <Filter>Form Files\UI_SearchD</Filter>
+    </QtUic>
+    <QtUic Include="d_login.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="MainWin.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

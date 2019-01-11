@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NCReport version="2.22.1" name="Untitled" type="report">
+    <options>
+        <encoding>UTF-8</encoding>
+        <language>00</language>
+        <langrole>0</langrole>
+        <orientation>portrait</orientation>
+        <pagesize width="210.000" height="297.000">A4</pagesize>
+        <topmargin>15</topmargin>
+        <bottommargin>15</bottommargin>
+        <leftmargin>20</leftmargin>
+        <rightmargin>20</rightmargin>
+        <backcolor>#ffffff</backcolor>
+        <columns>0</columns>
+        <columnspace>0</columnspace>
+        <zoneSpacing>0</zoneSpacing>
+        <zoneBreak>false</zoneBreak>
+        <varErrorAlert>false</varErrorAlert>
+        <fontname>Arial</fontname>
+        <fontsize>10</fontsize>
+        <fontstyle></fontstyle>
+        <htmlBodyStyle>{DEFAULT}</htmlBodyStyle>
+        <labelColumnCount>0</labelColumnCount>
+        <labelRowCount>0</labelRowCount>
+        <labelHGap>0</labelHGap>
+        <labelVGap>0</labelVGap>
+        <labelWidth>0</labelWidth>
+        <labelHeight>0</labelHeight>
+        <labelDirection>horizontal</labelDirection>
+    </options>
+    <datasources>
+        <datasource id="source_0" allowEmpty="true" enabled="true" type="model" openRole="begin" source="parameter" modelID="model_0"></datasource>
+    </datasources>
+    <variables/>
+    <scripts/>
+    <pageheader id="PH" height="17.820" printWhen="$V{pageno} == 1">
+        <field id="header_0" zValue="0" posX="63.500" posY="2.117" width="28.575" height="7.408" resource="param" fontName="Arial" fontSize="14" fontWeight="bold" alignment="36" type="txt" ftype="par">header_0</field>
+        <field id="BIBIX" zValue="1" posX="49.742" posY="11.642" width="55.033" height="4.233" resource="sysvar" fontName="Arial" fontSize="10" alignment="36" forecolor="#787878" type="txt" ftype="sys">datetime</field>
+    </pageheader>
+    <pagefooter id="PF" height="7.585">
+        <field id="YXWQN" zValue="0" posX="66.675" posY="2.117" width="21.167" height="4.233" resource="sysvar" fontName="Arial" fontSize="10" alignment="36" type="txt" ftype="sys">pageno</field>
+    </pagefooter>
+    <details>
+        <detail id="detail_table" height="88.194" datasource="source_0">
+            <items>
+                <table id="4ZJ7U" zValue="0" posX="1.058" posY="1.058" width="167.217" height="84.667" model="model_0" tableView="view_0" tableSpacing="0" cellSpacing="2" elidedMode="0" showBorder="1" showHeaderH="1" showHeaderV="1"/>
+            </items>
+        </detail>
+    </details>
+</NCReport>

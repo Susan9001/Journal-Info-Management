@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NCReport version="2.22.1" name="testReport" type="report">
+    <options>
+        <encoding>UTF-8</encoding>
+        <language>00</language>
+        <langrole>0</langrole>
+        <orientation>portrait</orientation>
+        <pagesize width="210.000" height="297.000">A4</pagesize>
+        <topmargin>15</topmargin>
+        <bottommargin>15</bottommargin>
+        <leftmargin>20</leftmargin>
+        <rightmargin>20</rightmargin>
+        <backcolor>#ffffff</backcolor>
+        <columns>0</columns>
+        <columnspace>0</columnspace>
+        <zoneSpacing>0</zoneSpacing>
+        <zoneBreak>false</zoneBreak>
+        <varErrorAlert>true</varErrorAlert>
+        <fontname>Arial</fontname>
+        <fontsize>10</fontsize>
+        <fontstyle></fontstyle>
+        <htmlBodyStyle>{DEFAULT}</htmlBodyStyle>
+        <labelColumnCount>0</labelColumnCount>
+        <labelRowCount>0</labelRowCount>
+        <labelHGap>0</labelHGap>
+        <labelVGap>0</labelVGap>
+        <labelWidth>0</labelWidth>
+        <labelHeight>0</labelHeight>
+        <labelDirection>horizontal</labelDirection>
+    </options>
+    <datasources>
+        <datasource id="source_text" allowEmpty="true" enabled="true" type="txt" openRole="begin" source="static" columnDelimiter="semicolon" hasColumnHeader="true" encoding="UTF-8">paper_id;paper_name;journal_id
+0;&quot;2333abc&quot;;5	
+7;&quot;ttaab&quot;;9
+5;&quot;kkk&quot;;10</datasource>
+    </datasources>
+    <variables/>
+    <scripts/>
+    <pageheader id="PH" height="13.935">
+        <label id="YXWQN" zValue="1" posX="5.292" posY="6.350" width="21.167" height="4.057" fontName="Arial" fontSize="10" forecolor="#000000">论文号</label>
+    </pageheader>
+    <pagefooter id="PF" height="18.168">
+        <text id="5ZY4H" zValue="0" posX="146.050" posY="14.817" width="21.167" height="3.351" useFont="true" fontName="Arial" fontSize="10" forecolor="#000000" usedsapproles="true">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</text>
+    </pagefooter>
+    <details>
+        <detail id="Detail1" height="50.271" datasource="source_text">
+            <items>
+                <field id="HTPFP" zValue="0" posX="6.350" posY="4.233" width="21.167" height="3.175" resource="datasource" fontName="Arial" fontSize="10" forecolor="#000000" type="txt" ftype="ds">paper_id</field>
+                <field id="N7Q30" zValue="1" posX="34.925" posY="4.233" width="21.167" height="3.175" zoneID="1" resource="datasource" fontName="Arial" fontSize="10" forecolor="#000000" type="txt" ftype="ds">paper_name</field>
+                <field id="ROE94" zValue="2" posX="70.908" posY="4.233" width="21.167" height="3.175" zoneID="2" resource="datasource" fontName="Arial" fontSize="10" forecolor="#000000" type="txt" ftype="ds">journal_id</field>
+                <table id="BIBIX" zValue="3" posX="62.442" posY="1.058" width="38.806" height="45.508" model="line1" tableView="view00" tableSpacing="0" cellSpacing="0" elidedMode="0" showBorder="1" showHeaderH="1" showHeaderV="1"/>
+            </items>
+        </detail>
+    </details>
+</NCReport>

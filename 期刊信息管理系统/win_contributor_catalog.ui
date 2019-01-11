@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WinContributorCatalog</class>
+ <widget class="QWidget" name="WinContributorCatalog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1092</width>
+    <height>624</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>WinContributorCatalog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QToolButton" name="btn_article">
+       <property name="text">
+        <string>作者文章</string>
+       </property>
+       <property name="icon">
+        <iconset resource="MainWin.qrc">
+         <normaloff>:/Icon/Resources/图标/new_page_128px_501019_easyicon.net.png</normaloff>:/Icon/Resources/图标/new_page_128px_501019_easyicon.net.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>38</width>
+         <height>38</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="btn_search">
+       <property name="maximumSize">
+        <size>
+         <width>110</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>高级搜索</string>
+       </property>
+       <property name="icon">
+        <iconset resource="MainWin.qrc">
+         <normaloff>:/Icon/Resources/图标/search_user_128px_501325_easyicon.net.png</normaloff>:/Icon/Resources/图标/search_user_128px_501325_easyicon.net.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>38</width>
+         <height>38</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="btn_print">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>60</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>97</width>
+         <height>66</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>报表打印</string>
+       </property>
+       <property name="icon">
+        <iconset resource="MainWin.qrc">
+         <normaloff>:/Icon/Resources/图标/printer_128px_25992_easyicon.net.png</normaloff>:/Icon/Resources/图标/printer_128px_25992_easyicon.net.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="btn_delContributor">
+       <property name="maximumSize">
+        <size>
+         <width>110</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>删除投稿人</string>
+       </property>
+       <property name="icon">
+        <iconset resource="MainWin.qrc">
+         <normaloff>:/Icon/Resources/图标/delete_user_128px_501301_easyicon.net.png</normaloff>:/Icon/Resources/图标/delete_user_128px_501301_easyicon.net.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>45</width>
+         <height>35</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="btn_addContributor">
+       <property name="maximumSize">
+        <size>
+         <width>110</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>增加投稿人</string>
+       </property>
+       <property name="icon">
+        <iconset resource="MainWin.qrc">
+         <normaloff>:/Icon/Resources/图标/add_user_128px_501291_easyicon.net.png</normaloff>:/Icon/Resources/图标/add_user_128px_501291_easyicon.net.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>38</width>
+         <height>35</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="btn_contributor">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>66</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>110</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>投稿人详情</string>
+       </property>
+       <property name="icon">
+        <iconset resource="MainWin.qrc">
+         <normaloff>:/Icon/Resources/图标/business_man_consultancy_staff_user_128px_107_easyicon.net.ico</normaloff>:/Icon/Resources/图标/business_man_consultancy_staff_user_128px_107_easyicon.net.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>35</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="btn_delUnit">
+       <property name="text">
+        <string>删除单位</string>
+       </property>
+       <property name="icon">
+        <iconset resource="MainWin.qrc">
+         <normaloff>:/Icon/Resources/图标/data_remove_database_128px_1082308_easyicon.net.png</normaloff>:/Icon/Resources/图标/data_remove_database_128px_1082308_easyicon.net.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>45</width>
+         <height>35</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="btn_addUnit">
+       <property name="text">
+        <string>增加单位</string>
+       </property>
+       <property name="icon">
+        <iconset resource="MainWin.qrc">
+         <normaloff>:/Icon/Resources/图标/data_add_database_128px_1082298_easyicon.net.png</normaloff>:/Icon/Resources/图标/data_add_database_128px_1082298_easyicon.net.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>38</width>
+         <height>35</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="btn_unit">
+       <property name="text">
+        <string>单位详情</string>
+       </property>
+       <property name="icon">
+        <iconset resource="MainWin.qrc">
+         <normaloff>:/Icon/Resources/图标/companies_128px_27316_easyicon.net.ico</normaloff>:/Icon/Resources/图标/companies_128px_27316_easyicon.net.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>36</width>
+         <height>36</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="1,2">
+     <item>
+      <widget class="QTreeWidget" name="m_unitTree">
+       <column>
+        <property name="text">
+         <string notr="true">1</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+     <item>
+      <widget class="QTableView" name="m_contributeTable">
+       <attribute name="horizontalHeaderStretchLastSection">
+        <bool>true</bool>
+       </attribute>
+       <attribute name="verticalHeaderStretchLastSection">
+        <bool>false</bool>
+       </attribute>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="1,2">
+     <item>
+      <widget class="QPushButton" name="btn_show">
+       <property name="minimumSize">
+        <size>
+         <width>200</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>显示投稿信息</string>
+       </property>
+       <property name="icon">
+        <iconset resource="MainWin.qrc">
+         <normaloff>:/Icon/Resources/图标/editor.ico</normaloff>:/Icon/Resources/图标/editor.ico</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>358</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="MainWin.qrc"/>
+ </resources>
+ <connections/>
+</ui>

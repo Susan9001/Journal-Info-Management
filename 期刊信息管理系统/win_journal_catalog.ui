@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WinJournalCatalog</class>
+ <widget class="QWidget" name="WinJournalCatalog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>852</width>
+    <height>490</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>WinJournalCatalog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>178</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QToolButton" name="btn_search">
+       <property name="text">
+        <string>高级搜索</string>
+       </property>
+       <property name="icon">
+        <iconset resource="MainWin.qrc">
+         <normaloff>:/Icon/Resources/图标/Search_complex.ico</normaloff>:/Icon/Resources/图标/Search_complex.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>38</width>
+         <height>38</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="btn_print">
+       <property name="maximumSize">
+        <size>
+         <width>16777000</width>
+         <height>67</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>报表打印</string>
+       </property>
+       <property name="icon">
+        <iconset resource="MainWin.qrc">
+         <normaloff>:/Icon/Resources/图标/printer_128px_25992_easyicon.net.png</normaloff>:/Icon/Resources/图标/printer_128px_25992_easyicon.net.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="btn_article">
+       <property name="text">
+        <string>期刊文章</string>
+       </property>
+       <property name="icon">
+        <iconset resource="MainWin.qrc">
+         <normaloff>:/Icon/Resources/图标/page_128px_535768_easyicon.net.png</normaloff>:/Icon/Resources/图标/page_128px_535768_easyicon.net.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>38</width>
+         <height>38</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="btn_journalInfo">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>66</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>期刊详情</string>
+       </property>
+       <property name="icon">
+        <iconset resource="MainWin.qrc">
+         <normaloff>:/Icon/Resources/图标/book_simple.ico</normaloff>:/Icon/Resources/图标/book_simple.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>38</width>
+         <height>38</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="btn_delete">
+       <property name="text">
+        <string>删除期刊</string>
+       </property>
+       <property name="icon">
+        <iconset resource="MainWin.qrc">
+         <normaloff>:/Icon/Resources/图标/remove_24px_35144_easyicon.net.ico</normaloff>:/Icon/Resources/图标/remove_24px_35144_easyicon.net.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>50</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="btn_add">
+       <property name="text">
+        <string>增加期刊</string>
+       </property>
+       <property name="icon">
+        <iconset resource="MainWin.qrc">
+         <normaloff>:/Icon/Resources/图标/add_plus_128px_11093_easyicon.net.ico</normaloff>:/Icon/Resources/图标/add_plus_128px_11093_easyicon.net.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>38</width>
+         <height>38</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="1,2">
+     <item>
+      <widget class="QTreeWidget" name="m_catalogTree">
+       <column>
+        <property name="text">
+         <string notr="true">1</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+     <item>
+      <widget class="QTableView" name="m_journalTable">
+       <attribute name="horizontalHeaderStretchLastSection">
+        <bool>true</bool>
+       </attribute>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="1,2">
+     <item>
+      <widget class="QPushButton" name="btn_show">
+       <property name="text">
+        <string>显示期刊</string>
+       </property>
+       <property name="icon">
+        <iconset resource="MainWin.qrc">
+         <normaloff>:/Icon/Resources/图标/Magazine_simple.png</normaloff>:/Icon/Resources/图标/Magazine_simple.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+  </layout>
+  <action name="actionSearchJournal">
+   <property name="icon">
+    <iconset resource="MainWin.qrc">
+     <normaloff>:/Icon/Resources/图标/Search_complex.ico</normaloff>:/Icon/Resources/图标/Search_complex.ico</iconset>
+   </property>
+   <property name="text">
+    <string>高级搜索</string>
+   </property>
+  </action>
+  <action name="actionArticle">
+   <property name="icon">
+    <iconset resource="MainWin.qrc">
+     <normaloff>:/Icon/Resources/图标/page_128px_535768_easyicon.net.png</normaloff>:/Icon/Resources/图标/page_128px_535768_easyicon.net.png</iconset>
+   </property>
+   <property name="text">
+    <string>期刊文章</string>
+   </property>
+  </action>
+  <action name="actionRemoveJournal">
+   <property name="icon">
+    <iconset resource="MainWin.qrc">
+     <normaloff>:/Icon/Resources/图标/remove_24px_35144_easyicon.net.ico</normaloff>:/Icon/Resources/图标/remove_24px_35144_easyicon.net.ico</iconset>
+   </property>
+   <property name="text">
+    <string>删除期刊</string>
+   </property>
+  </action>
+  <action name="actionAddJournal">
+   <property name="icon">
+    <iconset resource="MainWin.qrc">
+     <normaloff>:/Icon/Resources/图标/add_plus_128px_11093_easyicon.net.ico</normaloff>:/Icon/Resources/图标/add_plus_128px_11093_easyicon.net.ico</iconset>
+   </property>
+   <property name="text">
+    <string>增加期刊</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="MainWin.qrc"/>
+ </resources>
+ <connections/>
+</ui>
